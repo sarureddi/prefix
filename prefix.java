@@ -4,14 +4,14 @@ class GFG
 { 
  static int findMinLength(String arr[], int n) 
     { 
-        int min = Integer.MAX_VALUE; 
+        int min1 = Integer.MAX_VALUE; 
         for (int i = 0; i <= (n - 1); i++)  
         { 
-            if (arr[i].length() < min) { 
+            if (arr[i].length() < min1) { 
                 min = arr[i].length(); 
             } 
         } 
-        return min; 
+        return min1; 
     } 
   
     static boolean allContainsPrefix(String arr[], int n,  
